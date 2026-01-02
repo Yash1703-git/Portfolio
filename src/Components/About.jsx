@@ -7,7 +7,7 @@ export default function About() {
       <Container data-aos="fade-right">
         <Row className="d-flex align-items-center">
           <Col md={6}>
-            <img src="/src/assets/About-img.jpg" className="img-fluid rounded mt-5" />
+            <img src="/assets/About-img.jpg" className="img-fluid rounded mt-5" />
           </Col>
           <Col md={6} className="mt-4 mt-md-0">
             <p className=" text-uppercase text-white">Let me Introduce My self</p>

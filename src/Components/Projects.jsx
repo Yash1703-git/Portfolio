@@ -12,21 +12,21 @@ const projects = [
   { 
     name: "Online Food Order",
     title: "MERN Stack Restaurant Management",
-    cover: "/src/assets/project-2.jpg",
+    cover: "/assets/project-2.jpg",
     github: "https://github.com/Yash1703-git/Resturent-Mangment-System",
     live: "https://resturent-mangment-system.vercel.app/"
   },
   { 
     name: "Furniture",
     title: "Furniture Website Frontend",
-    cover: "/src/assets/project-3.jpg",
+    cover: "/assets/project-3.jpg",
     github: "https://github.com/Yash1703-git/Furniture-website",
     live: "https://yash1703-git.github.io/Furniture-website/"
   },
   { 
     name: "Portfolio",
     title: "React Component Based",
-    cover: "/src/assets/Project-4.jpg",
+    cover: "/assets/Project-4.jpg",
     github: "https://github.com/Yash1703-git/Portfolio",
     live: ""
   }
