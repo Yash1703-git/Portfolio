@@ -1,0 +1,419 @@
+
+.emblema-one-regular {
+   font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Navbar css */
+.custom-nav-link {
+  color: #ffffff;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Hover color */
+.custom-nav-link:hover {
+  color: #12f7ff !important;
+}
+
+/* Optional underline animation */
+.custom-nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background-color: #12f7ff;
+  transition: width 0.3s ease;
+}
+
+.custom-nav-link:hover::after {
+  width: 100%;
+}
+
+/* Resume looks clickable */
+.resume-link {
+  font-weight: 600;
+}
+
+
+
+/* Home Css */
+/* Wrapper */
+.image-wrapper {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  margin: auto;
+}
+
+.profile-img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+
+/* Loader Ring Animation */
+.loader-ring {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  border-top: 5px solid #12F7FF;
+  border-right: 5px solid #12F7FF;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Typing / changing text */
+.typing-text {
+  color: #0d6efd;
+  font-weight: 600;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Typing / changing text */
+.typing-text {
+  color: #12F7FF;
+  font-weight: 600;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.cursor {
+  display: inline-block;
+  margin-left: 2px;
+  animation: blink 1s infinite;
+  font-weight: bold;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.home-section {
+  background-image: url("/src/assets/bg-img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.home-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
+
+.home-section > * {
+  position: relative;
+  z-index: 2;
+}
+
+
+/* Skill CSS  */
+
+.professional-skill-section {
+  background: #1e252b;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-title {
+  color: #12f7ff;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.circle-card {
+  margin-bottom: 30px;
+  color: white;
+}
+
+.circle-svg {
+  transform: rotate(-90deg);
+}
+
+.progress-circle {
+  transition: stroke-dashoffset 1s ease;
+  filter: drop-shadow(0 0 6px #12f7ff);
+}
+
+.circle-text {
+  fill: white;
+  font-size: 16px;
+  font-weight: bold;
+  transform: rotate(90deg);
+  transform-origin: center;
+}
+
+.skill-label {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+
+/* Skill Card */
+.card {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Header */
+.tech-skill-section {
+  background: #1e252b;
+  padding: 60px 20px;
+}
+
+.section-title {
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.tech-card {
+  background: #242c33;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+/* Header */
+.tech-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.tech-name {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tech-icons span {
+  color: #12f7ff;
+  margin-left: 6px;
+  font-size: 16px;
+}
+
+.tech-percent {
+  font-size: 14px;
+}
+
+/* Progress Bar */
+.tech-bar {
+  width: 100%;
+  height: 8px;
+  background: #3a0a2b;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.tech-bar-fill {
+  height: 100%;
+  background: #12f7ff;
+  border-radius: 6px;
+  box-shadow: 0 0 12px #12f7ff;
+  animation: fillBar 1.5s ease-in-out;
+}
+
+/* Animation */
+@keyframes fillBar {
+  from {
+    width: 0;
+  }
+}
+
+/* Tool Css */
+/* Section Background */
+.tools-section {
+  background: radial-gradient(circle at top, #2a0033, #120012);
+  padding: 50px 20px;
+  color: white;
+}
+
+/* Header */
+.tools-header .subtitle {
+  letter-spacing: 2px;
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+.tools-header .title {
+  color: #12f7ff;
+  font-weight: bold;
+}
+
+/* Card */
+.tool-card {
+  background: #242c33;
+  padding: 25px 25px;
+  border-radius: 16px;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.tool-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 25px 60px rgba(18, 247, 255, 0.2);
+}
+
+/* Icon */
+.tool-icon {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  border-radius: 50%;
+  border: 2px solid #12f7ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 32px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgba(18, 247, 255, 0.6);
+}
+
+/* Text */
+.tool-card h4 {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.tool-card p {
+  font-size: 14px;
+  color: #cfcfcf;
+  line-height: 1.6;
+}
+
+/* Button */
+.read-btn {
+  margin-top: 20px;
+  background: #12f7ff;
+  border: none;
+  color: black;
+  padding: 8px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+  box-shadow: 0 0 15px rgba(18, 247, 255, 0.8);
+}
+
+.read-btn:hover {
+  background: #0be1e8;
+}
+
+
+
+/* Project Css */
+
+.project-card {
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Image fixed height */
+.project-img-wrapper {
+  height: 160px;
+  overflow: hidden;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.project-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Text control */
+.project-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.project-desc {
+  font-size: 0.9rem;
+  color: #555;
+  min-height: 40px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
+/* icon container */
+.neon-icon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border: 2px solid #12f7ff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #12f7ff;
+  overflow: hidden;
+  transition: color 0.4s ease;
+}
+
+/* sliding neon background */
+.neon-icon::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #12f7ff;
+  transform: translateX(-100%);
+  transition: transform 0.4s ease;
+  z-index: 0;
+}
+
+.neon-icon:hover::before {
+  transform: translateX(0);
+}
+
+/* icon itself */
+.neon-icon svg {
+  font-size: 20px;
+  z-index: 1;
+  transition: color 0.4s ease, transform 0.3s ease;
+}
+
+/* hover effect */
+.neon-icon:hover svg {
+  color: #000;
+  transform: scale(1.2);
+}
