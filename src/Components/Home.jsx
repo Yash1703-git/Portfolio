@@ -88,7 +88,7 @@ export default function Home() {
             <Button
               className=" text-white btn-primary "
               // variant="outline-dark"
-              href="/resume.pdf"
+              href="/Yash Kumbhar Resume copy.pdf"
               download
             >
               Download Resume
