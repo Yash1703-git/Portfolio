@@ -12,7 +12,7 @@ const projects = [
   { 
     name: "Online Food Order",
     title: "MERN Stack Restaurant Management",
-    cover: "/assets/project-2.jpg",
+    cover: "/assets/Project-2.jpg",
     github: "https://github.com/Yash1703-git/Resturent-Mangment-System",
     live: "https://resturent-mangment-system.vercel.app/"
   },
