@@ -100,7 +100,7 @@ export default function Home() {
             <div className="image-wrapper">
               <div className="loader-ring"></div>
               <img
-                src="/src/assets/hero-img.jpg"
+                src="/assets/Hero-img.jpg"
                 alt="Yash"
                 className="profile-img"
               />

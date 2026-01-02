@@ -5,7 +5,7 @@ const projects = [
   { 
     name: "Flipkart Clone",
     title: "MERN Stack E-commerce App",
-    cover: "/src/assets/project-1.png",
+    cover: "/assets/project-1.png",
     github: "https://github.com/Yash1703-git/Flipkart-clone",
     live: "https://flipkart-clone-pi-neon.vercel.app/"
   },
