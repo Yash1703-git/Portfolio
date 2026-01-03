@@ -59,7 +59,7 @@ export default function AppNavbar() {
         <Modal.Body style={{ height: "75vh" }}>
           {/* Replace resume.pdf later */}
           <iframe
-            src="/public/Yash Kumbhar Resume copy.pdf"
+            src="/public/Yash Kumbhar Resume.pdf"
             title="Resume"
             width="100%"
             height="100%"
